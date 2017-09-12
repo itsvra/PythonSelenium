@@ -56,7 +56,7 @@ class excel(unittest.TestCase):
     def test_rows(self):
         
         self.driver = webdriver.Chrome()
-        self.driver.get('http://reg-es.gramjuhl/~tcm/sync_check.csv')
+        self.driver.get('sepcify a url here')
         
         time.sleep(3)
         
