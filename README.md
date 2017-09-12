@@ -1,4 +1,4 @@
-# selenium_stuffs
+Repo contains tests using Selenium, Rest API, MySQL and many more 
 I will be storing all my selenium projects in this repo
 
 
