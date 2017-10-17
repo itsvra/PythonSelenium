@@ -8,3 +8,12 @@ for subdir, dirs, files in os.walk(directory):
             a = f.read()
             print a
             
+            
+#simplified code
+
+
+path = 'C:\\Users\\vra\\Downloads\\*.tcmx'   
+        files=glob.glob(path)   
+        for file in files:     # @ReservedAssignment
+            f=open(file, 'r')
+            print f.read() 
