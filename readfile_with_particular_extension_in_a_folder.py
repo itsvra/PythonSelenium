@@ -1,3 +1,6 @@
+
+#the code will read all the files ending with .tcmx in particular directory
+
 import os
 
 directory = os.path.normpath("C:\\Users\\vra\\Documents\\important")
