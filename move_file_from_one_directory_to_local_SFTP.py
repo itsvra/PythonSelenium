@@ -14,6 +14,8 @@ localpath = 'C:/Users/vra/2011-10-04SyslogCatchAll.txt' #moves it to this locati
 
 srv.get(remotepath, localpath)
 
+#serv.put(remotepath, localpath) use it to put file to remote from local
+
 f = open(r"C:\Users\vra\2011-10-04SyslogCatchAll.txt")
 
 print f.readlines(1) #reads the first line of file
